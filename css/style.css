@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#editor {
+  width: 550px;
+  height:600px;
+  border: 1px solid grey;
+}
+
+#preview {
+  width: 550px;
+  height: 600px;
+  border: 1px solid grey;
+}
+
+#preview > #preview-operator {
+  margin-top: 6px;
+  display: flex;
+}
+
+#preview > #preview-operator > #radio-wrapper {
+  margin-right: 20px;
+}
