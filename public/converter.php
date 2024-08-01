@@ -1,5 +1,5 @@
 <?php
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 $req_json = file_get_contents('php://input');
 $req = json_decode($req_json, true);
