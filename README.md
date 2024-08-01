@@ -5,19 +5,24 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 
+## URL
+
+https://mdtohtml.d-andoh.com/
+
 ## About
 
 このプログラムは、マークダウンをHTMLにリアルタイムで変換します。
 変換されたHTMLは、ページ、ソースコードそれぞれの形式でプレビュー表示されます。
 また、HTMLファイルのダウンロードも可能です。
 
-## Usage
-
-```
-$ cd markdown-to-html
-$ php -S localhost:8000
-```
-
 ## Demo
 
 ![demo](./docs/demo.gif)
+
+## Development
+
+```
+$ cd markdown-to-html
+$ composer install
+$ php -S localhost:8000
+```
